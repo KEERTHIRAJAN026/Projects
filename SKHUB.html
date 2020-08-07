@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>SK HUB</title>
+	<link rel="stylesheet" type="text/css" HREF="epic.css">
+	<style type="text/css">
+		ul {
+	margin-left: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 18px;
+}
+
+li {
+	margin-top: 19px;
+  float:left;
+}
+
+li a{
+  color: white;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+	color:black;
+  background-color: orange;
+}
+
+a:link {
+  color: orange;
+}
+a:visited {
+  color: orange;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: blue;
+}
+
+h1{
+	font: 50px algerian;
+	text-align: center;
+	color: white;
+	background-color: none;
+	border: 2px solid grey;
+  border-radius: 500px;
+  margin-left: 30px;
+  margin-right:30px;
+}
+h1:hover{
+	cursor: pointer;
+}
+i{
+	margin-left: 34px;
+}
+i:hover{
+	text-shadow: 0px 5px 30px orange;
+	cursor: pointer;
+}
+body{
+	background-color: grey;
+	 background-attachment: fixed;
+}
+#img{
+	overflow: auto;
+	width:50%;
+	height: 300px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+#hj:hover
+{
+text-shadow: 2px 2px 2px orange;
+}
+#img:hover{
+	opacity: 0.8;
+}
+body{
+	background-image: url(https://scontent.fmaa1-3.fna.fbcdn.net/v/t1.0-9/110159829_117844740013446_6522092613289075057_o.jpg?_nc_cat=107&_nc_sid=8024bb&_nc_ohc=PUL8O-BOJxIAX8GnX1C&_nc_ht=scontent.fmaa1-3.fna&oh=3f06f5220d0a66c028563245170e192c&oe=5F4310D8);
+	 margin-right: 10px
+	 background-attachment: fixed;
+	 background-size: 100%;
+}
+.regular
+{
+	color: orange;
+}
+#exp{
+color: white;
+font-style:bold;
+}
+#title{
+	border: none;
+	font-size: 30px;
+
+}
+#home 
+{
+	margin-bottom: 50px;
+	width: 300px; 
+	height: 200px;
+}
+
+div
+{
+	font-family: algerian;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 0vh;
+	flex-direction: column;
+	background: transparent;
+}
+h
+{
+	position: relative;
+	display: inline-block;
+	padding:8px;
+	margin: 40px 0;
+	color: orange;
+	font-size: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow:hidden;
+	transition: 0.5s;
+	letter-spacing: 4px;
+}
+h:hover
+{
+	background: orange;
+	color:#050801;
+	box-shadow: 0 0 5px orange,
+	 			0 0 25px orange,
+	 			0 0 50px orange,
+	 			0 0 200px orange;
+}
+h span{
+	position: absolute;
+	display: block;
+}
+h span:nth-child(1)
+{
+	top:0;
+	left: -100;
+	width: 100%;
+	height:2px;
+	background: linear-gradient(90deg,transparent,white);
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1 
+{
+	0%
+	{
+		left: -100%;
+	}
+	50%,100%
+	{
+		left: 100%;
+	}
+}
+h span:nth-child(2)
+{
+	top:-100;
+	right: 0;
+	width: 2px;
+	height:100px;
+	background: linear-gradient(180deg,transparent,white);
+	animation: animate2 1s linear infinite;
+	animation-delay: 0.25s;
+}
+@keyframes animate2 
+{
+	0%
+	{
+		top: -100%;
+	}
+	50%,100%
+	{
+		top: 100%;
+	}
+}
+h span:nth-child(3)
+{
+	bottom: 0;
+	right: -100;
+	width: 100%;
+	height:2px;
+	background: linear-gradient(270deg,transparent,white);
+	animation: animate3 1s linear infinite;
+	animation-delay: 0.5s;
+}
+@keyframes animate3 
+{
+	0%
+	{
+		right: -100%;
+	}
+	50%,100%
+	{
+		right: 100%;
+	}
+}
+h span:nth-child(4)
+{
+	bottom: -100;
+	left: 0;
+	width: 2px;
+	height:100%;
+	background: linear-gradient(360deg,transparent,white);
+	animation: animate4 1s linear infinite;
+	animation-delay: 0.75s;
+}
+@keyframes animate4 
+{
+	0%
+	{
+		bottom: -100%;
+	}
+	50%,100%
+	{
+		bottom: 100%;
+	}
+}
+
+.container{
+		width: 90%;
+		padding: 20px;
+		background: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+.box:hover{
+		transform: scale(1.3);
+		background: none;
+		z-index: 2;
+	}
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color:black;
+  color: white;
+}
+</style>
+	<!--<style>
+#box {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width:90%;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+#box td:hover
+{
+	background-color: lightgreen;
+}
+#box td, #box th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#box tr:nth-child(even){background-color: white;}
+
+#box tr:nth-child(odd){background-color: #ddd;}
+#box th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: orange;
+  color: white;
+}
+</style>-->
+
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+<ul>
+  <li><a  style="color: white;" href="#home">Home</a></li>
+  <li><a  style="color: white;" href="#news">News</a></li>
+  <li><a  style="color: white;" href="#Contact">Contact</a></li>
+  <li><a  style="color: white;" href="#end">About</a></li>
+</ul>
+ <div>
+   <h>
+  	<span></span>
+  	<span></span>
+  	<span></span>
+  	<span></span>
+  	&nbsp <in style="color:white;">sk</in> hub &nbsp
+  </h>
+ </div>
+ <div class="container">
+	<div class="box"><i class='fab fa-xbox' style='font-size:57px;color: white;'></i></div>
+	<div class="box"><i class='fas fa-chess-king' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fas fa-dice' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fas fa-dice-d6' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fas fa-ghost' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fas fa-gamepad' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fas fa-dice-d20' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fas fa-keyboard' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fas fa-chess' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fab fa-playstation' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fas fa-headset' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fab fa-steam-symbol' style='font-size:57px;color:white'></i></div>
+	<div class="box"><i class='fas fa-user-secret' style='font-size:57px;color:white'></i><hr></div>
+</div>
+	<h3 style="color: white;margin-left:15px;font-family: serif;font-style:bold;">SK <in style="color:orange;">HUB</in>:</h3>
+<p style="color: white;font-family: new courier;margin-left:15px;margin-right:10px;font-size:18px;font-style: bold;text-align: justify;">
+Welcome to skhub.com, the highrated games downloading site, where you can download a huge range of free games including action games, Windows Phone, games for kids, flash games and many more. And also on SKHUB, you can play games to compile games statistics such as high scores, and rankings on your own player page and can receive awards for playing games. You can also create your own avatar with clothing and accessories to represent you in our fun SKHUB.<p>
+<h2 id="exp" style="text-align: center;font-size:40px;font-family: georgia; color: orange; box-shadow: 2px 2px 2px	black;">Here you can explore some free games</h2>
+    <marquee direction="right" loop="infinity" scrollamount="20" behavior="scroll"><p id="exp" style="text-align:justify;font-style:oblique;font-size:20px;font-family: arial;">Download and enjoy the open world games for free.</p></marquee>
+
+	<h1 id="title">1. Grand Theft Auto 
+			<hj id="hj" style="color:green;font-family: algerian;font-size: 36px">v</hj></h1>
+		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj>
+		 	<img id="img" src="http://getwallpapers.com/wallpaper/full/7/e/8/64809.jpg"> 
+		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj>
+			<p style="color: white;font-family: new courier;font-size: 18px;margin-left: 30px;font-style: bold;">It is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the first main entry in the Grand Theft Auto series since 2008's Grand Theft Auto IV.<a href="https://crotorrents.com/grand-theft-auto-gta-5-torrent-pc-download/">  Click here</a> to download.</p><br>
+
+    <h1 id="title">2. Assassin creed - SYNDICATE</h1>
+    	<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj>
+    		<img id="img" src="https://www.bing.com/th?id=OIP.TpLpf-bkcc0fD5cMo08y1wHaEo&w=280&h=160&c=8&rs=1&qlt=90&dpr=1.5&pid=3.1&rm=2">
+        <hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj><br>
+			<p style="color: white;font-family: new courier;font-size: 18px;margin-left: 30px;font-style: bold;"> Assassin's Creed Syndicate is an action-adventure video game developed by Ubisoft Quebec and published by Ubisoft. It was released on October 23, 2015, for PlayStation 4 and Xbox One, and on November 19, 2015, for Microsoft Windows.<a href="https://crotorrents.com/assassins-creed-syndicate-torrent-pc-download/">  Click here</a> to download.</p><br>
+
+	<h1 id="title">3. call of duty</h1> 
+		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj>
+			<img id="img" src="https://images6.alphacoders.com/651/thumb-350-651981.jpg"> 
+		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj><br>
+			<p style="color: white;font-family: new courier;font-size: 18px;margin-left: 30px;font-style: bold;">Call of Duty is a first-person shooter video game franchise published by Activision. Starting out in 2003, it first focused on games set in World War II. However, over time, the series has seen games set in modern times, the midst of the Cold War, futuristic worlds, and outer space.<a href="https://crotorrents.com/call-of-duty-black-ops-2-torrent-pc-download/">  Click here</a> to download.</p><br>
+
+	<h1 id="title">4. watch dogs</h1>
+		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj>
+			<img id="img" src="https://images3.alphacoders.com/678/thumb-350-678606.jpg">
+		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj><br>
+			<p style="color: white;font-family: new courier;font-size: 18px;margin-left: 30px;font-style: bold;">Watch Dogs (stylized as WATCH_DOGS) is a 2014 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. Set in a fictionalized version of Chicago, the plot follows hacker Aiden Pearce's search for revenge after the killing of his niece. <a href="https://crotorrents.com/watch-dogs-free-torrent-pc-download/">  Click here</a> to download.
+  			</p><br>
+
+  	<h1 id="title">5. Alan Wake</h1>
+  		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj>
+  			<img id="img" src="https://www.hdwallpaper.nu/wp-content/uploads/2017/09/alan_wake-4-995x498.jpg">
+  		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj><br>
+  			<p style="color: white;font-family: new courier;font-size: 18px;margin-left: 30px;font-style: bold;">Alan Wake is an action-adventure video game developed by Remedy Entertainment and published by Microsoft Studios, released for the Xbox 360 and Microsoft Windows. The story follows best-selling thriller novelist Alan Wake as he tries to uncover the mystery behind his wife's disappearance during a vacation in the small fictional town of Bright Falls, Washington, all while experiencing events from the plot in his latest novel, which he cannot remember writing, coming to life. <br> <a href="https://crotorrents.com/alan-wake-torrent-download/">Click here</a> to download.
+  			</p>
+
+  	<h1 id="title">6. Dead space</h1>
+  		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj>
+  			<img id="img"src="https://wallpaperskingdom.com/sites/default/files/dead-space-hd-wallpapers-32962-6497333.jpg">
+  		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj><br>
+  			<p style="color: white;font-family: new courier;font-size:18px;margin-left: 30px;font-style: bold;">Dead Space is a science fiction horror video game series and multimedia franchise created by Glen Schofield and Michael Condrey, developed by Visceral Games and published by Electronic Arts. <a href="https://crotorrents.com/dead-space-free-torrent-download/"> Click here</a> to download.
+  			</p><br>
+
+  	<h1 id="title">7. Batman: Arkham City</h1>
+  		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj>
+  			<img id="img" src="https://images8.alphacoders.com/601/thumb-350-601705.jpg">
+  		<hj><img id="home" src="https://github.com/KEERTHIRAJAN026/Projects/raw/master/SK%20HUBin.png"></hj><br>
+  			<p style="color: white;font-family: new courier;font-size: 18px;margin-left: 30px;font-style: bold;">Batman: Arkham City is a 2011 action-adventure game developed by Rocksteady Studios and published by Warner Bros. Interactive Entertainment. Based on the DC Comics superhero Batman, it is the sequel to the 2009 video game Batman: Arkham Asylum and the second installment in the Batman. <a href="https://crotorrents.com/batman-arkham-city-goty-free-torrent-download/">  Click here</a> to download.
+ 			 </p><br><br>
+
+ <footer>
+ 	<br>
+ 	You're visiting skhub.com - SKHUB for simply easy downloading highrated games.
+ 	<p> © Copyright 2020 , All Rights Reserved from Cro torrents</p>
+  <p>Author: KEERTHIRAJAN<br>
+  <a href="mailto:keerthirajan19122001@gmail.com">keerthirajan19122001@gmail.com</a></p>
+</footer>
+</body>
+</html>
